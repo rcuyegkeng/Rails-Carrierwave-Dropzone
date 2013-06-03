@@ -1,4 +1,4 @@
-<%= form_for(@student) do |f| %>
+<%= form_for(@student, :html => { :id => 'student_form' }) do |f| %>
   <% if @student.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@student.errors.count, "error") %> prohibited this student from being saved:</h2>
@@ -19,11 +19,10 @@
     <%= f.label :age %><br />
     <%= f.number_field :age %>
   </div>
-  <div class="field">
-    <%= f.label :imagefile %><br />
-    <%= f.file_field :imagefile %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
+  <div class="fallback">
+      <%= f.file_field :imagefile %>
   </div>
 <% end %>
+
+<button id="student_form_save_button">Save</button>
+<br/>
