@@ -8,17 +8,17 @@
     </list>
     <ignored path="carrierwave-dropzone.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0e825c0a-5903-4cb5-bbec-e1154011c6ba" time="1370282027529" ignored="false" />
+    <file path="/Dummy.txt" changelist="0e825c0a-5903-4cb5-bbec-e1154011c6ba" time="1370283397348" ignored="false" />
     <file path="/student.rb" changelist="0e825c0a-5903-4cb5-bbec-e1154011c6ba" time="1370269736734" ignored="false" />
     <file path="/routes.rb" changelist="0e825c0a-5903-4cb5-bbec-e1154011c6ba" time="1370268837050" ignored="false" />
     <file path="/image_uploader.rb" changelist="0e825c0a-5903-4cb5-bbec-e1154011c6ba" time="1370269555085" ignored="false" />
-    <file path="/_form.html.erb" changelist="0e825c0a-5903-4cb5-bbec-e1154011c6ba" time="1370282510988" ignored="false" />
+    <file path="/_form.html.erb" changelist="0e825c0a-5903-4cb5-bbec-e1154011c6ba" time="1370285175338" ignored="false" />
     <file path="/show.html.erb" changelist="0e825c0a-5903-4cb5-bbec-e1154011c6ba" time="1370270757680" ignored="false" />
     <file path="/Gemfile" changelist="0e825c0a-5903-4cb5-bbec-e1154011c6ba" time="1370270379450" ignored="false" />
     <file path="/Ruby Console" changelist="0e825c0a-5903-4cb5-bbec-e1154011c6ba" time="1370270633465" ignored="false" />
     <file path="/fragment.rb" changelist="0e825c0a-5903-4cb5-bbec-e1154011c6ba" time="1370274022297" ignored="false" />
     <file path="/.gitignore" changelist="0e825c0a-5903-4cb5-bbec-e1154011c6ba" time="1370271277605" ignored="false" />
-    <file path="/students.js.coffee" changelist="0e825c0a-5903-4cb5-bbec-e1154011c6ba" time="1370282833158" ignored="false" />
+    <file path="/students.js.coffee" changelist="0e825c0a-5903-4cb5-bbec-e1154011c6ba" time="1370285083632" ignored="false" />
     <file path="/application.css" changelist="0e825c0a-5903-4cb5-bbec-e1154011c6ba" time="1370280353246" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,20 +39,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/students/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="8" selection-start="746" selection-end="746" vertical-scroll-proportion="-18.125">
+            <state line="29" column="6" selection-start="693" selection-end="693" vertical-scroll-proportion="0.8546169">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="students.js.coffee" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="students.js.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/students.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="6" selection-start="405" selection-end="405" vertical-scroll-proportion="0.2814259">
-              <folding />
+            <state line="19" column="53" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1370285087376" expanded="true" signature="539:552" placeholder="..." />
+                <marker date="1370285087376" expanded="true" signature="720:731" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,7 +72,7 @@
       <file leaf-file-name="students_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/students_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="56" selection-start="1835" selection-end="1835" vertical-scroll-proportion="0.0">
+            <state line="58" column="0" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,8 +109,8 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/app/views/students/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/students.js.coffee" />
+        <option value="$PROJECT_DIR$/app/views/students/_form.html.erb" />
       </list>
     </option>
   </component>
@@ -865,7 +868,11 @@
       <created>1370282029264</created>
       <updated>1370282029264</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Check response from server.">
+      <created>1370283401462</created>
+      <updated>1370283401462</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -878,9 +885,9 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25299683" sideWeight="0.6010753" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39892474" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39892474" sideWeight="0.49968454" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39892474" sideWeight="0.5003154" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -934,7 +941,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add dropzone." />
+    <option name="LAST_COMMIT_MESSAGE" value="Check response from server." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -949,6 +956,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Add dropzone." />
+    <MESSAGE value="Check response from server." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1061,23 +1069,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/students/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/students.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="8" selection-start="746" selection-end="746" vertical-scroll-proportion="-18.125">
-          <folding />
+        <state line="19" column="53" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1370285087376" expanded="true" signature="539:552" placeholder="..." />
+            <marker date="1370285087376" expanded="true" signature="720:731" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/students_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="56" selection-start="1835" selection-end="1835" vertical-scroll-proportion="0.0">
+        <state line="58" column="0" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/students.js.coffee">
+    <entry file="file://$PROJECT_DIR$/app/views/students/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="405" selection-end="405" vertical-scroll-proportion="0.2814259">
+        <state line="29" column="6" selection-start="693" selection-end="693" vertical-scroll-proportion="0.8546169">
           <folding />
         </state>
       </provider>

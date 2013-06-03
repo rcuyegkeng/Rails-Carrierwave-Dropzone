@@ -12,12 +12,12 @@ jQuery ->
 
     student_form.on("success", (file) ->
       console.log("successfully uploaded file")
-      $('#status_message').html("<b>Student Saved</b>")
+      $('#status_message').html("<b style='color: green;'>Student Saved</b>")
     )
 
     student_form.on("error", (file) ->
       console.log("error occurred while uploading file")
-      $('#status_message').html("<b>An error occurred while saving the Student.</b>")
+      $('#status_message').html("<b style='color: red;'>An error occurred while saving the Student.</b>")
     )
 
     $("#student_form_save_button").click( ->
